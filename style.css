@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+/* general configurations */
+body {
+    margin: 0;
+    padding: 6px 0 6px 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #dae4e9;
+    color: #1F3237;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    padding: 0 30px 0 30px;
+    margin-bottom: 50px;
+    width: 80vw;
+
+    text-align: justify;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+
+    width: 98.5vw;
+    /* padding: 20px; */
+
+    border: 0 solid;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+    background-color:#bddde6;
+    color: #1F3237;
+    font-family: 'Special Elite', cursive;
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+    border: 0 solid;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+    width: 98.5vw;
+
+    background-color: #94b4bd;
+    font-family: 'Special Elite', cursive;
+
+    height: 55px;
+
+    box-shadow: 0px 14px 13px -6px rgba(0,0,0,0.11);
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding: 0;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin-top: 0;
+}
+
+nav ul li a {
+    color: #fff;
+}
+
+ul li a:hover {
+    transition: .5s;
+    color: #1F3237;
+    font-size: 20px;
+}
+
+#tema {
+    padding-bottom: 20px;
+}
+
+#generica h1,
+#tema h1 {
+    border-left-width: 3px;
+    border-left-style: solid;
+    border-left-color: #a5bac0;
+    padding-left: 5px;
+}
+
+.generica p {
+    max-width: 1200px;
+}
+
+.integrantes {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+
+    margin-bottom: 20px;
+}
+
+.pessoa {
+    height: 460px;
+    width: 300px;
+    padding: 20px;
+    background-color: #1F3237;
+    color: #a5bac0;
+    border-radius: 3px;
+
+    text-align: center;
+}
+
+.pessoa:hover {
+    scale: calc(1.1);
+    transition: .5s;
+    color: #fff;
+}
+
+.porfile img {
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.porfile h3 {
+    display: inline-block;
+    padding: 0 0 0 5px;
+
+    border-style: solid;
+    border-width: 3px;
+    border-color: #a5bac0;
+    border-top-width: 0px;
+    border-right-width: 0px;
+}
+
+.porfile .social {
+    display: block;
+    position: relative;
+    bottom: 10px;
+
+    color: #feda77;
+    font-family: 'Poppins', sans-serif;
+}
+
+.porfile .social a {
+    color: #feda77;
+    text-decoration: none;
+}
+
+.porfile .social a:hover{
+    color: #dd2a7b;
+    transition: .5s;
+}
+
+.porfile cite {
+    margin-top: 0;
+    text-align: justify;
+    display: block;
+}
+
+.resumo {
+    padding-bottom: 40px;
+}
+
+.resumo .pdf {
+    display: flex;
+    height: 40px;
+    width: 340px;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: #1F3237;
+    font-weight: bold;
+
+    border-style: none;
+    border-width: none;
+    border-radius: 12px 10px 10px 12px;
+}
+
+.resumo .pdf:hover {
+    background-color: #fff;
+    transition: .5s;
+}
+
+.resumo .pdf span {
+    height: 100%;
+    width: 15%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #feda77;
+
+    border-style: none;
+    border-radius: 10px 0 0 10px;
+}
+
+.resumo .pdf span .fa-file-arrow-down {
+    font-size: 25px;
+}
+
+.resumo .pdf a {
+    margin: 0 auto;
+    color: #94b4bd;
+}
+
+
+footer {
+    padding: 20px;  
+    background-color: #1F3237;
+    color: #fff;
+    text-align: center;
+
+    border: 0 solid;
+    border-radius: 15px 15px 0 0;
+}
+
+footer .money {
+    color: #3DC2E3;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer img {
+    height: 50px;
+}
+
+footer .button {
+    display: inline-block;
+    background-color: #94b4bd;
+    margin-top: 15px;
+    padding: 3px;
+
+    border-radius: 5px;
+}
+
+.button .btn {
+    color: #1F3237;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #fff;
+    color: #000;
+    transition: .5s;
+}
