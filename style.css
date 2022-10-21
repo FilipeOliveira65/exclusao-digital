@@ -4,7 +4,7 @@
 /* general configurations */
 body {
     margin: 0;
-    padding: 6px 0 6px 0;
+    padding: 0;
     font-family: 'Poppins', sans-serif;
     background-color: #dae4e9;
     color: #1F3237;
@@ -31,14 +31,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 auto;
-
-    width: 98.5vw;
-    /* padding: 20px; */
-
-    border: 0 solid;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
 
     background-color:#bddde6;
     color: #1F3237;
@@ -55,8 +47,6 @@ nav {
     border: 0 solid;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
-
-    width: 98.5vw;
 
     background-color: #94b4bd;
     font-family: 'Special Elite', cursive;
@@ -263,4 +253,29 @@ footer .button {
     background-color: #fff;
     color: #000;
     transition: .5s;
+}
+
+@media (max-width: 650px) {
+    body {
+        background-color: red;
+    }
+
+    header {
+        /* display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        background-color:#bddde6;
+        color: #1F3237;
+        font-family: 'Special Elite', cursive; */
+        font-size: 12px;
+    }
+
+    nav {
+        font-size: 15px;
+    }
+
+    nav ul {
+        gap: 20px;
+    }
 }
