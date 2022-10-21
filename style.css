@@ -181,7 +181,7 @@ ul li a:hover {
 .resumo .pdf {
     display: flex;
     height: 40px;
-    width: 340px;
+    max-width: 340px;
     align-items: center;
     justify-content: space-between;
 
@@ -219,6 +219,7 @@ ul li a:hover {
 .resumo .pdf a {
     margin: 0 auto;
     color: #94b4bd;
+    font-size: 15px;
 }
 
 
