@@ -110,7 +110,7 @@ ul li a:hover {
     padding: 20px;
     background-color: #1F3237;
     color: #a5bac0;
-    border-radius: 3px;
+    border-radius: 15px;
 
     text-align: center;
 }
@@ -298,6 +298,10 @@ footer .button {
 
         border: 0 solid;
         border-radius: 5px;
+    }
+
+    ul li a:hover {
+        font-size: 14px;
     }
 
     .resumo .pdf a {
