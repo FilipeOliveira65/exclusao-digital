@@ -23,7 +23,7 @@ section {
     margin-bottom: 50px;
     width: 80vw;
 
-    text-align: justify;
+    text-align: initial;
     margin: 0 auto;
 }
 
@@ -105,7 +105,7 @@ ul li a:hover {
 }
 
 .pessoa {
-    height: 460px;
+    min-height: 460px;
     width: 300px;
     padding: 20px;
     background-color: #1F3237;
@@ -171,7 +171,7 @@ ul li a:hover {
 .resumo .pdf {
     display: flex;
     height: 40px;
-    max-width: 340px;
+    max-width: 390px;
     align-items: center;
     justify-content: space-between;
 
@@ -209,7 +209,7 @@ ul li a:hover {
 .resumo .pdf a {
     margin: 0 auto;
     color: #94b4bd;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 
@@ -255,8 +255,8 @@ footer .button {
     transition: .5s;
 }
 
-@media (max-width: 650px) {
-    
+@media (max-width: 768px) {
+
     header {
         /* display: flex;
         align-items: center;
@@ -269,14 +269,38 @@ footer .button {
     }
 
     nav {
-        font-size: 15px;
+        font-size: 14px;
+        padding: 5px;
+
+        height: 35px;
     }
 
     nav ul {
-        gap: 20px;
+        gap: 30px;
     }
 
     .resumo .pdf {
         margin: 0 auto;
+    }
+}
+
+@media (max-width: 480px) {
+
+    nav ul {
+        gap: 7px;
+    }
+
+    nav ul li a {
+        background-color: rgba(0, 0, 0, 0.089);
+        color: #fff;
+
+        padding: 5px;
+
+        border: 0 solid;
+        border-radius: 5px;
+    }
+
+    .resumo .pdf a {
+        font-size: 14px;
     }
 }
