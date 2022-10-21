@@ -256,10 +256,7 @@ footer .button {
 }
 
 @media (max-width: 650px) {
-    body {
-        background-color: red;
-    }
-
+    
     header {
         /* display: flex;
         align-items: center;
@@ -277,5 +274,9 @@ footer .button {
 
     nav ul {
         gap: 20px;
+    }
+
+    .resumo .pdf {
+        margin: 0 auto;
     }
 }
