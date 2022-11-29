@@ -52,13 +52,14 @@ header {
 }
 
  ul li a {
-    color: #fff;
+    color: #3DC2E3;
+    font-weight: bold;
+    margin-left: 20px;
 }
 
 ul li a:hover {
     transition: .5s;
-    color: #3DC2E3;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 #tema {
