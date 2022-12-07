@@ -154,7 +154,7 @@ ul li a:hover {
 
 .bolha {
     margin-top: 15px;
-    padding: 20px;
+    padding: 10px;
     border: 1px solid #252525;
     border-radius: 10px;
     background-color: #a5bac0cd;
@@ -205,6 +205,17 @@ ul li a:hover {
     font-size: 18px;
 }
 
+.imagens {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 40px;
+}
+
+.imagens img {
+    width: 300px;
+    height: 500px;
+    border-radius: 10px;
+}
 
 footer {
     padding: 20px;  
@@ -259,6 +270,12 @@ footer .button {
         color: #1F3237;
         font-family: 'Special Elite', cursive; */
         font-size: 12px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    section {
+        padding: 0 30px 0 30px;
     }
 
     nav {
@@ -274,6 +291,14 @@ footer .button {
 
     .resumo .pdf {
         margin: 0 auto;
+    }
+
+    .imagens {
+        flex-direction: column;
+    }
+
+    .imagens img {
+        margin-bottom: 20px;
     }
 }
 
